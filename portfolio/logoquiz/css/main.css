@@ -1,0 +1,96 @@
+/*body {
+	background-color: #222222;
+	color: #fff;
+}
+*/
+.title {
+	margin: 75px 0 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+.subhead {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.form-group {
+	margin: 25px auto;
+	width: 30%;
+	background-color: #ebebeb;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.logos {
+	height: 200px;
+	width: 200px;
+	margin: 20px 0;
+}
+
+.correct {
+	margin: 25px auto;
+	width: 30%;
+	background-color: #38DA43;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.incorrect {
+	margin: 25px auto;
+	width: 30%;
+	background-color: #FF4747;
+	padding: 15px;
+	border-radius: 5px;
+
+}
+
+#resultsBtn{
+	margin: 10px 0 25px;
+	border: none;
+	box-shadow: none;
+	background-image: none;
+	padding: 15px 25px; 
+}
+
+.winner{
+	height: 400px;
+	color: #fff;
+	font-family: 'Montserrat';
+	background-image: url(../img/winner-bg.png);
+	background-size: cover;
+	background-color: #000;
+	padding-top: 100px;
+}
+
+.wScore {
+	color: #38DA43;
+	font-weight: 00;
+}
+
+.loser{
+	height: 400px;
+	color: #fff;
+	font-family: 'Montserrat';
+	background-image: url(../img/loser-bg.png);
+	background-size: cover;
+	background-color: #000;
+	padding-top: 100px;
+}
+
+.lScore {
+	color: #FF4747;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+@media screen and (max-width: 991px){
+	.form-group{
+	width: 60%;
+}
+}

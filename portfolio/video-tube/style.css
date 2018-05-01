@@ -1,0 +1,144 @@
+html > body{
+	background: linear-gradient(#222, #000) !important;
+	color: #fff !important;
+}
+
+.container {
+	margin: 20px auto 75px;
+}
+
+/*APPLICATION TITLE STYLING*/
+.titleContainer {
+	margin: 15px auto;
+	text-align: center;
+}
+
+.title{
+	font-weight: bolder;
+}
+
+.red {
+	color: #FD0000;
+	font-weight: lighter;
+}
+
+.subTitle {
+	font-size: 12px;
+}
+
+/*LOADING STYLING*/
+.loadingContainer{
+	margin: 50px auto;
+	text-align: center;
+}
+
+.loading {
+	max-width: 175px;
+}
+
+/*SEARCHBAR STYLING*/
+.search-bar {
+	margin: 20px auto 30px;
+	text-align: center;
+}
+
+.search-bar input {
+	width: 80%;
+	background-color: #000;
+	height: 50px;
+	border: 1px solid #666;
+	font-size: 20px;
+	padding: 5px;
+	font-weight: lighter;
+}
+
+.search-bar input:focus {
+	border-color: #FD0000;
+	outline-offset: -2px;
+	outline: #FD0000 auto 5px;
+}
+
+/*VIDEO STYLING*/
+.video-item img {
+	height: 50px !important;
+	width: 90px !important;
+}
+
+.video-detail {
+	padding-left: 0;
+}
+
+.video-detail .details {
+	padding: 10px 18px 20px;
+	color: #111;
+	background-color: #F8F8F8;
+}
+
+.video-detail .details .videoTitle {
+	font-size: 18px;
+}
+
+.video-detail .details .videoDes {
+	padding-top: 10px;
+	font-size: 13px;
+	font-weight: lighter;
+}
+
+.list-group {
+	border-radius: 0;
+	height: 100%;
+	overflow: scroll;
+}
+
+.list-group-item:first-child{
+	border-top-left-radius:0 !important;
+	border-top-right-radius:0 !important;
+
+}
+
+.list-group-item:last-child{
+	border-bottom-left-radius:0 !important;
+	border-bottom-right-radius:0 !important;
+}
+
+.list-group-item {
+	padding: 5px !important;
+	cursor: pointer;
+	background-color: #333 !important;
+	border: 1px solid #555 !important;
+	-webkit-transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -o-transition: ease-in 0.3s;
+    transition: ease-in 0.3s;
+    margin-bottom: 11px !important;
+}
+
+.media-body .media-heading {
+	font-size: 11px;
+	font-weight: lighter;
+}
+
+.list-group-item:hover {
+	background-color: #666 !important;
+}
+
+
+@media screen and (max-width: 991px){
+	.list-group{
+		margin-top: 25px !important;
+		padding-left: 15px !important;
+	}
+
+	.media-heading{
+		font-size: 18px !important;
+		font-weight: lighter;
+		padding-right: 5px;
+	}
+}
+
+
+
+
+
+
+

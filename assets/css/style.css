@@ -1699,9 +1699,14 @@ a.linkedin:hover{
 ===============================================
 */
 
-.portfolio_grid {
-	padding: 0 10px;
+#portfolio {
+	margin-bottom: 100px;
 }
+
+
+/*.portfolio_grid {
+	padding: 0 10px;
+}*/
 
 .portfolio_grid .grid_item{
 	width: 33%;
@@ -2414,10 +2419,6 @@ body.theme1 .blog_posts .post:hover{
 		display: inline-block;
 	}
 
-	.home_fullscreen_image{
-    	/*background-position-x: -400px !important;*/
-	}
-
 	.home_fullscreen_image_content{
 		height: auto !important;
 	}
@@ -2518,6 +2519,11 @@ body.theme1 .blog_posts .post:hover{
 
 	.mobile_nav{
 		display: block;
+	}
+
+	/*PORTFOLIO*/
+	.portfolio_grid .grid_item {
+		width: 49.75%;
 	}
 
 	.about_body .actions{
@@ -2654,6 +2660,11 @@ body.theme1 .blog_posts .post:hover{
 	.home_fullscreen_image .overlay .inner .description span:before{
 		width: 60px;
 		left: -80px;
+	}
+
+	.portfolio_grid .grid_item {
+		width: 100%;
+		padding: 5px 15px;
 	}
 
 	.portfolio_grid .grid_item .overlay .inner a.title{

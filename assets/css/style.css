@@ -2345,13 +2345,18 @@ a.linkedin:hover{
 .contact_form button.contact_button.button{
 	background: #00D770;
 	width: 200px;
-	height: 50px;
+	height: 75px;
 	border: solid 2px #000;
-	border-radius: 50px;
+	border-radius: 60px;
+	margin: 25px;
+	font-size: 14px;
 }
 
 body.theme1 .contact_form .button:hover{
-	background: #000 !important;
+	background: #0B6FBB !important;
+	border: 2px solid #0B6FBB;
+	font-size: 20px;
+	box-shadow: 0px 0px 5px 3px #333;
 }
 
 .contact_body .contact_form {
@@ -2402,7 +2407,7 @@ body.theme1 .contact_form .button:hover{
 	width: 100%;
 	text-align: center;
 	background: #1d1d1d;
-	padding: 110px 15px;
+	padding: 20px 0px 5px;
 }
 
 .footer .logo{
@@ -2410,6 +2415,10 @@ body.theme1 .contact_form .button:hover{
 	margin-bottom: 30px;
 	display: block;
 	float: none;
+}
+
+.footer .sep {
+	margin-top: 75px;
 }
 
 .footer .contact_info{
@@ -2427,13 +2436,13 @@ body.theme1 .contact_form .button:hover{
 
 .footer .copyright{
 	border-top: 1px solid rgba(255,255,255,0.1);
-	padding-top: 30px;
-	font-size: 13px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	color: #ffffff;
+	padding-top: 10px;
+	font-size: 11px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+/*	letter-spacing: 2px;
+*//*	text-transform: uppercase;
+*/	color: #ffffff;
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;

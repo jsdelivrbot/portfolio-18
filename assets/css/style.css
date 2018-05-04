@@ -2312,6 +2312,12 @@ a.linkedin:hover{
     color: #fff;
 }
 
+#contact > div.section_title {
+	padding: 0 !important;
+	margin-top: 50px;
+
+}
+
 .contact_body{
 	padding: 30px 150px;
 }
@@ -2342,6 +2348,10 @@ a.linkedin:hover{
 	height: 50px;
 	border: solid 2px #000;
 	border-radius: 50px;
+}
+
+body.theme1 .contact_form .button:hover{
+	background: #000 !important;
 }
 
 .contact_body .contact_form {

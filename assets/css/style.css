@@ -336,8 +336,8 @@ a.youtube_bg:hover{
 }
 
 a.github_bg:hover{
-	background: #7197B0 !important;
-	color: #ffffff !important;
+/*	background: #7197B0 !important;
+*/	color: #ffffff !important;
 }
 
 a.dribbble_bg:hover{
@@ -345,60 +345,13 @@ a.dribbble_bg:hover{
 	color: #ffffff !important;
 }
 
-a.flickr_bg:hover{
-	background: #0062DD !important;
-	color: #ffffff !important;
-}
-
-a.tumblr_bg:hover{
-	background: #35506B !important;
-	color: #ffffff !important;
-}
-
-a.vk_bg:hover{
-	background: #476C98 !important;
-	color: #ffffff !important;
-}
-
-a.skype_bg:hover{
-	background: #00A8E9 !important;
-	color: #ffffff !important;
-}
-
-a.pinterest_bg:hover{
-	background: #C7212D !important;
-	color: #ffffff !important;
-}
-
-a.instagram_bg:hover{
-	background: #BFB4A4 !important;
-	color: #ffffff !important;
-}
-
 a.linkedin_bg:hover{
-	background: #007BB6 !important;
 	color: #ffffff !important;
 }
 
-a.facebook:hover{
-	color: #3B5999;
-}
-
-
-a.wordpress:hover{
-	color: #0076A8;
-}
 
 a.twitter:hover{
 	color: #00BAFF;
-}
-
-a.googleplus:hover{
-	color: #D94835;
-}
-
-a.youtube:hover{
-	color: #C8302D;
 }
 
 a.github:hover{
@@ -1739,57 +1692,6 @@ a.linkedin:hover{
 
 /*
 ===============================================
-			8. Some Stats Section
-===============================================
-*/
-
-.some_stats_section{
-	text-align: center;
-	background: #f9f9f9;
-	padding: 80px 15px;
-}
-
-.some_stats_section .item i{
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    border-radius: 100%;
-    font-size: 30px;
-    margin-bottom: 20px;
-    -webkit-transition: all 300ms linear;
-    -moz-transition: all 300ms linear;
-    -o-transition: all 300ms linear;
-    transition: all 300ms linear;
-}
-
-.some_stats_section .item h1{
-	margin-top: 0px;
-	letter-spacing: 2px;
-	margin-bottom: 20px;
-   	-webkit-transition: all 300ms linear;
-	-moz-transition: all 300ms linear;
-	-o-transition: all 300ms linear;
-	transition: all 300ms linear;
-}
-
-
-.some_stats_section .item .text{
-	margin-top: 0;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	font-size: 12px;
-    -ms-transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
-   	-webkit-transition: all 300ms linear;
-	-moz-transition: all 300ms linear;
-	-o-transition: all 300ms linear;
-	transition: all 300ms linear;
-}
-
-/*
-===============================================
 			9. Portfolio Section
 ===============================================
 */
@@ -2173,134 +2075,6 @@ a.linkedin:hover{
 
 /*
 ===============================================
-			12. Blog Section
-===============================================
-*/
-
-/* home blog posts */
-
-.home_blog_posts .post{
-	text-align: center;
-}
-
-.home_blog_posts .post .top{
-	position: relative;
-	overflow: hidden;
-}
-
-.home_blog_posts .post .top .bg_img{
-    background-repeat: no-repeat !important;
-    background-position: 0 0;
-    background-size: cover !important;
-	position: relative;
-	height: 300px;
-	z-index: 2;
-   	-webkit-transition: all 600ms linear;
-	-moz-transition: all 600ms linear;
-	-o-transition: all 600ms linear;
-	transition: all 600ms linear;
-}
-
-.home_blog_posts .post.post1 .top .bg_img{
-    background-image: url(../img/blog/1.jpg);
-}
-
-.home_blog_posts .post.post2 .top .bg_img{
-    background-image: url(../img/blog/2.jpg);
-}
-
-.home_blog_posts .post.post3 .top .bg_img{
-    background-image: url(../img/blog/3.jpg);
-}
-
-.home_blog_posts .post.post4 .top .bg_img{
-    background-image: url(../img/blog/4.jpg);
-}
-
-.home_blog_posts .post:hover .top .bg_img{
-	/*background-position-y: -50px;*/
-}
-
-.home_blog_posts .post .top .inner{
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	z-index: 9;
-	content: '';
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-   	-webkit-transition: all 300ms linear;
-	-moz-transition: all 300ms linear;
-	-o-transition: all 300ms linear;
-	transition: all 300ms linear;
-}
-
-.home_blog_posts .post .top .inner a{
-	display: block;
-	color: #ffffff !important;
- 	letter-spacing: 2px;
-	text-decoration: none;
-}
-
-.home_blog_posts .post .top .inner a + a{
-	margin-top: 5px;
-}
-
-.home_blog_posts .post .top .inner a.date{
-	font-weight: 600;
-}
-
-.home_blog_posts .post .top .overlay{
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 6;
-	background: rgba(0,0,0,0.35);
-	content: '';
-   	-webkit-transition: all 300ms linear;
-	-moz-transition: all 300ms linear;
-	-o-transition: all 300ms linear;
-	transition: all 300ms linear;
-}
-
-.home_blog_posts .post:hover .top .overlay{
-	background: rgba(0,0,0,0.55);
-}
-
-.home_blog_posts .post .post_title{
-	position: relative;
-	margin: 0;
-	line-height: 1.2;
-	margin-bottom: 30px;
-	padding-bottom: 30px;
-}
-
-.home_blog_posts .post .post_title:after{
-	position: absolute;
-	left: calc(50% - 25px);
-	bottom: 0;
-	height: 1px;
-	width: 50px;
-	content: '';
-	background: rgba(255,255,255,0.6);
-}
-
-.home_blog_posts .post .post_title a{
-	color: #ffffff;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	text-decoration: none;
-   	-webkit-transition: all 300ms linear;
-	-moz-transition: all 300ms linear;
-	-o-transition: all 300ms linear;
-	transition: all 300ms linear;
-}
-
-/*
-===============================================
 			14. Contact Section
 ===============================================
 */
@@ -2353,10 +2127,10 @@ a.linkedin:hover{
 }
 
 body.theme1 .contact_form .button:hover{
-	background: #0B6FBB !important;
-	border: 2px solid #0B6FBB;
-	font-size: 20px;
-	box-shadow: 0px 0px 5px 3px #333;
+	background: #fff !important;
+	font-size: 14px;
+	color: #000 !important;
+	border: 2px solid #fff !important;
 }
 
 .contact_body .contact_form {
@@ -2423,12 +2197,20 @@ body.theme1 .contact_form .button:hover{
 
 .footer .contact_info{
 	margin-top: 5px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+	font-weight: 300;
 }
+
+.footer .contact_info i {
+	padding-right: 10px;
+}
+
+i.fa.fa-map-marker {
+	padding-left: 3px;
+	padding-right: 14px;
+}
+
 
 .footer .contact_info a{
 	color: #ffffff !important;
@@ -2438,11 +2220,9 @@ body.theme1 .contact_form .button:hover{
 	border-top: 1px solid rgba(255,255,255,0.1);
 	padding-top: 10px;
 	font-size: 11px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-/*	letter-spacing: 2px;
-*//*	text-transform: uppercase;
-*/	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #ffffff;
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;

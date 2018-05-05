@@ -1017,9 +1017,12 @@ a.linkedin:hover{
 
 .user_titles{
 	overflow: hidden;
-	text-align: center;
 	z-index: 5;
 	margin-bottom: 100px;
+}
+
+.user_titles.col-md-6 {
+	padding: 5px;
 }
 
 .user_titles .my_avatar{
@@ -1030,13 +1033,15 @@ a.linkedin:hover{
 }
 
 .user_titles p{
-	font-size: 19px;
+	font-size: 16px;
 	color: #fff;
 	margin:0;
 }
 
 .user_titles p strong{
 	color: #fff;
+	font-size: 24px;
+	line-height:22px;
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;

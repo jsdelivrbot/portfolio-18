@@ -1052,10 +1052,14 @@ a.linkedin:hover{
 
 .user_titles .actions a {
 	border-radius: 3px;
+	background-color: #00D770;
+	color: #fff;
+	border: 2px solid #00D770 !important;
 }
 
-.user_titles .actions a + a{
-	margin-left: 20px;
+.user_titles .actions a:hover {
+	color: #00D770 !important;
+	background-color: #111 !important;
 }
 
 .user_titles .signature{

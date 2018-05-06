@@ -893,11 +893,13 @@ a.linkedin:hover{
 	letter-spacing: 4px;
 }
 
-.section .container .row .section_title .title{
+.section .container .row .section_title .title,
+.section .container-fluid .row .section_title .title{
 	position: relative;
 	margin-top: 0;
 	font-weight: 700;
 	font-size: 40px;
+	z-index: 1;
 }
 
 .section .container .row .section_title .title:after{
@@ -1618,9 +1620,13 @@ a.linkedin:hover{
 ===============================================
 */
 
+.education_content {
+	border-bottom: 1px solid #ddd;
+}
+
 .education_content,
 .employment_content{
-	padding: 0 15px 50px 15px;
+	padding: 20px 15px 50px 15px;
 }
 
 .edu_empl_items{
@@ -1658,6 +1664,7 @@ a.linkedin:hover{
 .edu_empl_items .items .item .body{
 	text-align: left;
 	position: relative;
+	margin-left: 40px;
 }
 
 .edu_empl_items .items .item .body:before{
@@ -1692,10 +1699,18 @@ a.linkedin:hover{
 }
 
 .edu_empl_items .items .item .date{
-	padding-left: 0;
+	padding-left: 50px;
+	color: #fff;
 	position: relative;
 	font-weight: 400;
 	text-transform: uppercase;
+	text-align: right;
+	padding-right: 15px;
+	background-color: #00D770;
+	width: 200px;
+	padding: 5px;
+	border-radius: 3px;
+	margin-top: -8px;
 }
 
 .edu_empl_items .items .item .place{

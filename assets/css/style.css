@@ -1624,13 +1624,13 @@ a.linkedin:hover{
 	border-bottom: 1px solid #ddd;
 }
 
+.employment_content {
+	margin-top: 20px;
+}
+
 .education_content,
 .employment_content{
 	padding: 20px 15px 50px 15px;
-}
-
-.edu_empl_items{
-	text-align: center;
 }
 
 .edu_empl_items > i{
@@ -1640,16 +1640,7 @@ a.linkedin:hover{
 .edu_empl_items > .title{
 	position: relative;
 	padding-bottom: 15px;
-	margin-bottom: 45px;
-}
-
-.edu_empl_items > .title:after{
-	position: absolute;
-	left: calc(50% - 25px);
-	bottom: 0px;
-	width: 50px;
-	height: 1px;
-	content: '';
+	margin-bottom: 25px;
 }
 
 .edu_empl_items .items .item{
@@ -1664,7 +1655,7 @@ a.linkedin:hover{
 .edu_empl_items .items .item .body{
 	text-align: left;
 	position: relative;
-	margin-left: 40px;
+	margin-left: 45px;
 }
 
 .edu_empl_items .items .item .body:before{
@@ -1693,7 +1684,6 @@ a.linkedin:hover{
 
 .edu_empl_items .items .item .position{
 	margin-top: 0;
-	letter-spacing: 2px;
 	text-transform: uppercase;
 	position: relative;
 }
@@ -2253,6 +2243,7 @@ body.theme1 .contact_form .button:hover{
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
+	font-size: 12px;
 }
 
 .footer .contact_info i {
@@ -2633,7 +2624,7 @@ body.theme1 .blog_posts .post:hover{
 	}
 
 	.edu_empl_items .items .item .body{
-		text-align: center;
+		margin-left: 0;
 	}
 
 	.edu_empl_items .items .item .date{
@@ -2669,8 +2660,14 @@ body.theme1 .blog_posts .post:hover{
 
 @media only screen and (max-width: 767px) {
 
-	.user_titles .actions a{
-		display: block;
+	.section .container .row .section_title .title {
+		margin: 0 20px;
+		font-size: 32px;
+	}
+
+	.section .container .row .section_title .title:after {
+		margin-left: -40px;
+		bottom: -8px;
 	}
 
 	#header .mobile_nav li a{

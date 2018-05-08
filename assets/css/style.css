@@ -1627,6 +1627,10 @@ a.linkedin:hover{
 	font-size: 40px;
 }
 
+.edu_empl_items h3 i {
+	padding-right: 20px;
+}
+
 .edu_empl_items > .title{
 	position: relative;
 	padding-bottom: 15px;

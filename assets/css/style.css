@@ -886,22 +886,17 @@ a.linkedin:hover{
 	padding-bottom: 75px !important;
 }
 
-.section > .section_title{
-	padding-bottom: 50px;
-	padding-left: 135px;
-	padding-right: 15px;
-	letter-spacing: 4px;
-}
 
-.section > .section_title .title{
+.section .container .row .section_title .title{
 	position: relative;
 	margin-top: 0;
 	padding-bottom: 15px;
 	font-weight: 700;
 	font-size: 40px;
+	z-index: 1;
 }
 
-.section .container .section_title .title:after{
+.section .container .row .section_title .title:after{
 	position: absolute;
 	bottom: 10px;
 	left: 15px;
@@ -1014,7 +1009,7 @@ a.linkedin:hover{
 
 .user_titles{
 	overflow: hidden;
-	text-align: center;
+	text-align: left;
 	z-index: 5;
 	margin-bottom: 100px;
 }
@@ -1027,13 +1022,15 @@ a.linkedin:hover{
 }
 
 .user_titles p{
-	font-size: 19px;
+	font-size: 16px;
 	color: #fff;
 	margin:0;
 }
 
 .user_titles p strong{
 	color: #fff;
+	font-size: 24px;
+	line-height: 22px;
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;
@@ -2654,7 +2651,7 @@ body.theme1 .blog_posts .post:hover{
 @media only screen and (max-width: 767px) {
 
 	.user_titles .actions a{
-		display: block;
+		display: inline-block;
 	}
 
 	#header .mobile_nav li a{

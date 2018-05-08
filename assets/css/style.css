@@ -886,25 +886,24 @@ a.linkedin:hover{
 	padding-bottom: 75px !important;
 }
 
-.section .container .row .section_title{
+.section > .section_title{
 	padding-bottom: 50px;
-	padding-left: 5px;
+	padding-left: 135px;
 	padding-right: 15px;
 	letter-spacing: 4px;
 }
 
-.section .container .row .section_title .title,
-.section .container-fluid .row .section_title .title{
+.section > .section_title .title{
 	position: relative;
 	margin-top: 0;
+	padding-bottom: 15px;
 	font-weight: 700;
 	font-size: 40px;
-	z-index: 1;
 }
 
-.section .container .row .section_title .title:after{
+.section .container .section_title .title:after{
 	position: absolute;
-	bottom: -5px;
+	bottom: 10px;
 	left: 15px;
 	width: 260px;
 	height: 25px;
@@ -916,7 +915,7 @@ a.linkedin:hover{
 	transition: all 300ms linear;
 }
 
-.section .container .row .section_title .description{
+.section > .section_title .description{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #999999;
@@ -926,12 +925,8 @@ a.linkedin:hover{
 	margin: 0;
 }
 
-.section .container .section_title.ptop{
+.section > .section_title.ptop{
 	padding-top: 100px;
-}
-
-.section .container-fluid .row .section_title {
-	text-align: center;
 }
 
 /*
@@ -1019,12 +1014,9 @@ a.linkedin:hover{
 
 .user_titles{
 	overflow: hidden;
+	text-align: center;
 	z-index: 5;
 	margin-bottom: 100px;
-}
-
-.user_titles.col-md-6 {
-	padding: 5px;
 }
 
 .user_titles .my_avatar{
@@ -1035,15 +1027,13 @@ a.linkedin:hover{
 }
 
 .user_titles p{
-	font-size: 16px;
+	font-size: 19px;
 	color: #fff;
 	margin:0;
 }
 
 .user_titles p strong{
 	color: #fff;
-	font-size: 24px;
-	line-height:22px;
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;
@@ -1620,17 +1610,17 @@ a.linkedin:hover{
 ===============================================
 */
 
+.education_content,
+.employment_content{
+	padding: 25px 15px 50px 15px;
+}
+
 .education_content {
 	border-bottom: 1px solid #ddd;
 }
 
-.employment_content {
-	margin-top: 20px;
-}
-
-.education_content,
-.employment_content{
-	padding: 20px 15px 50px 15px;
+.edu_empl_items{
+	
 }
 
 .edu_empl_items > i{
@@ -1640,7 +1630,7 @@ a.linkedin:hover{
 .edu_empl_items > .title{
 	position: relative;
 	padding-bottom: 15px;
-	margin-bottom: 25px;
+	margin-bottom: 45px;
 }
 
 .edu_empl_items .items .item{
@@ -1655,7 +1645,7 @@ a.linkedin:hover{
 .edu_empl_items .items .item .body{
 	text-align: left;
 	position: relative;
-	margin-left: 45px;
+	margin: 0 35px;
 }
 
 .edu_empl_items .items .item .body:before{
@@ -1689,18 +1679,17 @@ a.linkedin:hover{
 }
 
 .edu_empl_items .items .item .date{
-	padding-left: 50px;
-	color: #fff;
 	position: relative;
 	font-weight: 400;
 	text-transform: uppercase;
-	text-align: right;
-	padding-right: 15px;
 	background-color: #00D770;
-	width: 200px;
+	color: #fff;
 	padding: 5px;
 	border-radius: 3px;
+	width: 200px;
+	text-align: right;
 	margin-top: -8px;
+	margin-right: 10px;
 }
 
 .edu_empl_items .items .item .place{
@@ -2128,9 +2117,10 @@ a.linkedin:hover{
     color: #fff;
 }
 
-#contact .container-fluid .row div.section_title {
+#contact div.section_title {
 	padding: 0 !important;
 	margin-top: 50px;
+	text-align: center;
 
 }
 
@@ -2243,7 +2233,6 @@ body.theme1 .contact_form .button:hover{
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	font-size: 12px;
 }
 
 .footer .contact_info i {
@@ -2337,7 +2326,7 @@ body.theme1 #header .navigation > li:after,
 body.theme1 .button:hover,
 body.theme1 .button.active,
 body.theme1 .button.invert,
-body.theme1 .section .container .row .section_title .title:after,
+body.theme1 .section .container .section_title .title:after,
 body.theme1 .bgcolor:after,
 body.theme1 .user_personal_info .cellrow .cell:hover .label,
 body.theme1 .skills .skill .bar .barinner,
@@ -2624,7 +2613,7 @@ body.theme1 .blog_posts .post:hover{
 	}
 
 	.edu_empl_items .items .item .body{
-		margin-left: 0;
+		text-align: center;
 	}
 
 	.edu_empl_items .items .item .date{
@@ -2660,14 +2649,8 @@ body.theme1 .blog_posts .post:hover{
 
 @media only screen and (max-width: 767px) {
 
-	.section .container .row .section_title .title {
-		margin: 0 20px;
-		font-size: 32px;
-	}
-
-	.section .container .row .section_title .title:after {
-		margin-left: -40px;
-		bottom: -8px;
+	.user_titles .actions a{
+		display: block;
 	}
 
 	#header .mobile_nav li a{

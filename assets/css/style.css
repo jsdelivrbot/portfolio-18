@@ -1630,7 +1630,7 @@ a.linkedin:hover{
 .edu_empl_items > .title{
 	position: relative;
 	padding-bottom: 15px;
-	margin-bottom: 45px;
+	margin: 25px 0;
 }
 
 .edu_empl_items .items .item{
@@ -2613,7 +2613,7 @@ body.theme1 .blog_posts .post:hover{
 	}
 
 	.edu_empl_items .items .item .body{
-		text-align: center;
+		margin-left: 0;
 	}
 
 	.edu_empl_items .items .item .date{

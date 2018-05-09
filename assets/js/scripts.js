@@ -294,48 +294,48 @@
 	
 
 	//google maps
-	if ($("#gmap").length){
+	// if ($("#gmap").length){
 
-		var marker;
-	    $("#gmap").appear();
-	    $("body").on("appear", "#gmap", function(event, $all_appeared_elements){
+	// 	var marker;
+	//     $("#gmap").appear();
+	//     $("body").on("appear", "#gmap", function(event, $all_appeared_elements){
 
-	    	if (!$(this).hasClass("done")){
+	//     	if (!$(this).hasClass("done")){
 
-				//Google map
-				var theme_array = [{"stylers":[{"saturation":-100},{"gamma":1}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"water","stylers":[{"visibility":"on"},{"saturation":0},{"gamma":0},{"hue":"#000000"}]},{"featureType":"administrative.neighborhood","elementType":"labels.text.fill","stylers":[{"color":"#333333"}]},{"featureType":"road.local","elementType":"labels.text","stylers":[{"weight":0.5},{"color":"#333333"}]},{"featureType":"transit.station","elementType":"labels.icon","stylers":[{"gamma":1},{"saturation":0}]}];
+	// 			//Google map
+	// 			var theme_array = [{"stylers":[{"saturation":-100},{"gamma":1}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"water","stylers":[{"visibility":"on"},{"saturation":0},{"gamma":0},{"hue":"#000000"}]},{"featureType":"administrative.neighborhood","elementType":"labels.text.fill","stylers":[{"color":"#333333"}]},{"featureType":"road.local","elementType":"labels.text","stylers":[{"weight":0.5},{"color":"#333333"}]},{"featureType":"transit.station","elementType":"labels.icon","stylers":[{"gamma":1},{"saturation":0}]}];
 
-			    var map = new google.maps.Map(document.getElementById('gmap'), {
-				    zoom: 12,
-					center: {lat: 37.7749, lng: -122.4194},//latitude and longitude
-			        styles: theme_array,
-					scrollwheel: false
-				});
+	// 		    var map = new google.maps.Map(document.getElementById('gmap'), {
+	// 			    zoom: 12,
+	// 				center: {lat: 37.7749, lng: -122.4194},//latitude and longitude
+	// 		        styles: theme_array,
+	// 				scrollwheel: false
+	// 			});
 
-				var contentString = '<p>Google Maps Marker</p>';
+	// 			var contentString = '<p>Google Maps Marker</p>';
 
-				var infowindow = new google.maps.InfoWindow({
-					content: contentString
-				});
+	// 			var infowindow = new google.maps.InfoWindow({
+	// 				content: contentString
+	// 			});
 
-				marker = new google.maps.Marker({
-					map: map,
-					draggable: true,
-					animation: google.maps.Animation.DROP,
-					position: {lat: 37.7749, lng: -122.4194},//latitude and longitude
-					title: 'Marker Title'
-				});
-				marker.addListener('click', function(){
-					infowindow.open(map, marker);
+	// 			marker = new google.maps.Marker({
+	// 				map: map,
+	// 				draggable: true,
+	// 				animation: google.maps.Animation.DROP,
+	// 				position: {lat: 37.7749, lng: -122.4194},//latitude and longitude
+	// 				title: 'Marker Title'
+	// 			});
+	// 			marker.addListener('click', function(){
+	// 				infowindow.open(map, marker);
 
-					toggleBounce();
-				});
+	// 				toggleBounce();
+	// 			});
 
-				$(this).addClass("done");
-		    }
+	// 			$(this).addClass("done");
+	// 	    }
 
-	    });
-	}
+	//     });
+	// }
 
 	//check for mobile
 	var isMobile = {

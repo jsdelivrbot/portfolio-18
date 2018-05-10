@@ -1011,6 +1011,15 @@ a.linkedin:hover{
 	margin-top: 5px;
 }
 
+.about-img {
+	background-image: url('../img/about-pic.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 740px;
+	opacity: .5;
+	margin: -145px 0;
+}
+
 /* user titles */
 
 .user_titles{
@@ -1018,7 +1027,7 @@ a.linkedin:hover{
 	text-align: left;
 	z-index: 5;
 	margin-bottom: 100px;
-	padding: 0;
+	padding: 0 50px 0 0;
 }
 
 .user_titles .my_avatar{

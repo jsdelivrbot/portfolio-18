@@ -2696,6 +2696,18 @@ body.theme1 .blog_posts .post:hover{
 		left: -80px;
 	}
 
+	.section .container .row .section_title .title {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.section .container .row .section_title .title:after {
+		height: 20px;
+		left: 0;
+		width: 50%;
+	}
+
+
 	.portfolio_grid .grid_item {
 		width: 100%;
 		padding: 5px 15px;

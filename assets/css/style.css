@@ -2417,8 +2417,15 @@ body.theme1 .blog_posts .post:hover{
 */
 
 /* Portrait tablet to landscape and desktop */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.about-img {
+		clear: both;
+		margin: 25px 0 -25px;
+	}
 
+	.about-img .skills-container {
+		padding-top: 50%;
+	}
 }
 
 @media only screen and (min-width: 768px){
@@ -2770,8 +2777,12 @@ body.theme1 .blog_posts .post:hover{
 		margin-top: 30px;
 	}
 
-	.about_image{
-		height: 100vh !important;
+	.about-img{
+		margin: 50px 0 -25px;
+	}
+
+	.about-img .skills-container {
+		bottom: 25px;
 	}
 
 	.services .item{

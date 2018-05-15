@@ -1036,7 +1036,7 @@ a.linkedin:hover{
 .about-img .skills-container .skills-list {
 	text-align: center;
 	margin-left: -40px;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .about-img .skills-container .col-xs-3 img {
@@ -2922,6 +2922,19 @@ body.theme1 .blog_posts .post:hover{
 
 	.about_image .overlay .quote{
 		font-size: 20px;
+	}
+
+	.about-img .skills-container {
+		padding-top: 95%;
+	}
+
+	.about-img .skills-container .col-xs-3 img {
+		height: 60px !important;
+		width: 60px !important;
+	}
+
+	.about-img .skills-container .col-xs-3 p {
+		font-size: 12px !important;
 	}
 
 	.contact_body{

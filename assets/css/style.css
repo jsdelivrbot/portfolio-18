@@ -3059,7 +3059,7 @@ body.theme1 .blog_posts .post:hover{
 @media only screen and (max-width: 467px) and (min-height: 450px) {
 
 	.home_fullscreen_image{
-    	background-position-x: -400px !important;
+    	background-position-x: -550px !important;
 	}
 
 }
